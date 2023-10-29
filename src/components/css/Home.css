@@ -1,0 +1,124 @@
+.body{
+	background-color: antiquewhite;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.header-navigation{
+	background-color: beige;
+	display: block;
+	max-height: auto;
+}
+
+.header-navigation__content-row{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(217, 231, 244);
+}
+
+.header-navigation__content--left{
+	display: flex;
+	align-items: center;
+	width: 50%; 
+	height: 100px;
+}
+.header-navigation__content--left h1{
+	font-size: 35px; color: black;
+	padding-left: 100px; padding-right: 25px;
+}
+.header-navigation__content--left img{
+	max-width: 50px; max-height: 50px;
+}
+
+.header-navigation__content--right{
+	display: flex;
+	width: 50%;
+}
+
+.header-navigation__content-resources{
+	display: block;
+	width: 100%;
+	padding-left: 40px;
+	background-color: aliceblue;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	box-shadow: 1px 1px #888;
+}
+.list-resources{
+	display: flex;
+	list-style: none;
+}
+.list-resources li{
+	padding: 15px;
+	font-size: 25px;
+}
+
+.main-signin__content{
+	display: flex;
+	background-color: #61dcfb86;
+	height: 25em;
+}
+.signin-text{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	align-items: center;
+}
+.signin-menu{
+	display: flex;
+	flex-direction: column;
+	width: 55%;	
+	align-items: center;
+	justify-content: center;
+}
+.signin-menu__container{
+	display: flex;
+	border-radius: 10px;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(7, 160, 211);
+	height: 15em;
+	width: 25.25em;
+	box-shadow: 15px 15px rgb(56, 149, 186);
+}
+
+.signin-menu button{
+	width: 20em;
+	height: 3em;
+	border-radius: 10px;
+	background-color :rgb(133, 190, 255);
+	color: white;
+}
+.signin-menu button:hover{
+	background-color: rgb(135, 177, 255);
+}
+
+.main-info__content{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.main-info__container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.main-info__content img{
+	height: 10em; width: 15em;
+}
+.main-info__content ul{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	column-gap: 100px;
+	width: 100%;
+	align-items: center;
+	list-style: none;
+}
+
+.main-info__content li{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 350px;
+}
