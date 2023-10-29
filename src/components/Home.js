@@ -77,17 +77,7 @@ class Home extends Component {
               </ul>
             </div>
           </div>
-
         </div>
-        <Link to="/userProfile">User Profile</Link>
-        <br/>
-        <Link to="/login">Login</Link>
-        <br/>
-        <Link to="/credits">Credits (to be implemented in the Assignment)</Link>
-        <br/>
-        <Link to="/debits">Debits (to be implemented in the Assignment)</Link>
-        <br/><br/>
-        <AccountBalance accountBalance={this.props.accountBalance}/>
       </div>
     );
   }
