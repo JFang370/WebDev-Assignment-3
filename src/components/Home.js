@@ -37,7 +37,29 @@ class Home extends Component {
             </section>
           </section>
         </div>
-        
+        <div class='main-signin__content'>
+          <div class='signin-text'>
+            <h1> </h1>
+          </div>
+          <div class='signin-menu'>
+            <div class='signin-menu__container'>
+              <h1>Welcome!</h1>
+              <div class='singin-button'>
+                <Link to="/login"><button>Sign In</button></Link>
+              </div>
+              <h4>Not a member? Sign up now.</h4>
+            </div>
+          </div>
+        </div>
+        <div class='main-info__content'>
+          <div class='main-info__container'>
+            <div class='main-info__content--header'>
+              <h1 class='main-info--header'>Manage Your Bank Accounts</h1>
+              <h4 class='main-info--subheader'>Access your accounts 24/7, whenever and wherever</h4>
+            </div>
+          </div>
+
+        </div>
         <Link to="/userProfile">User Profile</Link>
         <br/>
         <Link to="/login">Login</Link>
