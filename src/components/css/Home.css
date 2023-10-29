@@ -1,0 +1,75 @@
+.body{
+	background-color: antiquewhite;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.header-navigation{
+	background-color: beige;
+	display: block;
+	max-height: auto;
+}
+
+.header-navigation__content-row{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(217, 231, 244);
+}
+
+.header-navigation__content--left{
+	display: flex;
+	align-items: center;
+	width: 50%; 
+	height: 100px;
+}
+.header-navigation__content--left h1{
+	font-size: 35px; color: black;
+	padding-left: 100px; padding-right: 25px;
+}
+.header-navigation__content--left img{
+	max-width: 50px; max-height: 50px;
+}
+
+.header-navigation__content--right{
+	display: flex;
+	width: 50%;
+}
+
+.header-navigation__content-resources{
+	display: block;
+	width: 100%;
+	padding-left: 40px;
+	background-color: aliceblue;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	box-shadow: 1px 1px #888;
+}
+.list-resources{
+	display: flex;
+	list-style: none;
+}
+.list-resources li{
+	padding: 15px;
+	font-size: 25px;
+}
+
+.main-signin__content{
+	display: flex;
+	background-color: beige;
+	height: 25em;
+}
+.signin-text{
+	display: flex;
+	width: 50%;
+	align-items: center;
+}
+.signin-menu{
+	display: flex;
+	flex-direction: column;
+	width: 50%;	
+	align-items: center;
+}
+
+.signin-menu button{
+	width: 15em;
+}
