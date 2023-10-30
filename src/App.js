@@ -12,9 +12,11 @@ import Home from './components/Home';
 import UserProfile from './components/UserProfile';
 import LogIn from './components/Login';
 import Credits from './components/Credits';
+import CreditsAPI from './components/CreditAPI';
 import Debits from './components/Debits';
 import Dashboard from './components/Dashboard';
 import DashboardNav from './components/DashboardNav';
+
 
 class App extends Component {
   constructor() {  // Create and initialize state
@@ -47,6 +49,7 @@ class App extends Component {
     )
     const LogInComponent = () => (<LogIn user={this.state.currentUser} mockLogIn={this.mockLogIn} />)
     const CreditsComponent = () => (<Credits credits={this.state.creditList} />) 
+    const CreditAPIComponent = () => (<CreditsAPI />)
     const DebitsComponent = () => (<Debits debits={this.state.debitList} />) 
     const DashboardComponent = () => (<Dashboard accountBalance={this.state.accountBalance}/>)
     // Important: Include the "basename" in Router, which is needed for deploying the React app to GitHub Pages

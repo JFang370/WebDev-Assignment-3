@@ -1,0 +1,28 @@
+.main-credit{
+	display: flex;
+	flex-direction: column;
+}
+
+.main-credit-header{
+	width: 100%;
+}
+
+.main-credit-info{
+	display: flex;
+}
+
+.main-credit-left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color:beige;
+}
+
+.main-credit-right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: antiquewhite;
+}
