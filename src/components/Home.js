@@ -12,7 +12,7 @@ import './css/Home.css';
 class Home extends Component {
   render() {
     return (
-      <div class='body'>
+      <div class='homepage-container'>
         <div class='header-navigation'>
           <section class='header-navigation__content-row'>
             <section class='header-navigation__content--left'>
