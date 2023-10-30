@@ -40,7 +40,7 @@ class LogIn extends Component {
   render () {
     // Redirect to "User Profile" page when "Log In" button is clicked
     if (this.state.redirect) {  
-      return (<Redirect to="/userProfile"/>);
+      return (<Redirect to="/dashboard"/>);
     }
 
     // Render the login form (and call "handleSubmit" method when "Log In" button is clicked to submit form)
