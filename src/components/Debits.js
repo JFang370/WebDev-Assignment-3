@@ -5,6 +5,7 @@ The Debits component contains information for Debits page view.
 Note: You need to work on this file for the Assignment.
 ==================================================*/
 import {Link} from 'react-router-dom';
+import DashboardNav from './DashboardNav';
 
 const Debits = (props) => {
   // Create the list of Debit items
@@ -18,6 +19,7 @@ const Debits = (props) => {
   // Render the list of Debit items and a form to input new Debit item
   return (
     <div>
+      <DashboardNav />
       <h1>Debits</h1>
 
       {debitsView()}
