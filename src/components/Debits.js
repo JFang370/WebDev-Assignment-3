@@ -44,7 +44,7 @@ const Debits = (props) => {
           <button type="submit">Add Debit</button>
         </form>
         </div>
-        <div class='debits'>
+        <div class='view'>
           {debitsView()}
         </div>
       </div>
