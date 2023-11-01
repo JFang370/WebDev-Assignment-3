@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/WebDev-Assignment-3/static/css/main.7cf61f23.chunk.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.ab1d74d7.chunk.js",
-    "main.js.map": "/WebDev-Assignment-3/static/js/main.ab1d74d7.chunk.js.map",
+    "main.css": "/WebDev-Assignment-3/static/css/main.e7c3d274.chunk.css",
+    "main.js": "/WebDev-Assignment-3/static/js/main.96f54827.chunk.js",
+    "main.js.map": "/WebDev-Assignment-3/static/js/main.96f54827.chunk.js.map",
     "runtime-main.js": "/WebDev-Assignment-3/static/js/runtime-main.99fd0301.js",
     "runtime-main.js.map": "/WebDev-Assignment-3/static/js/runtime-main.99fd0301.js.map",
     "static/js/2.f34bf3a6.chunk.js": "/WebDev-Assignment-3/static/js/2.f34bf3a6.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.fd074cc5.chunk.js": "/WebDev-Assignment-3/static/js/3.fd074cc5.chunk.js",
     "static/js/3.fd074cc5.chunk.js.map": "/WebDev-Assignment-3/static/js/3.fd074cc5.chunk.js.map",
     "index.html": "/WebDev-Assignment-3/index.html",
-    "static/css/main.7cf61f23.chunk.css.map": "/WebDev-Assignment-3/static/css/main.7cf61f23.chunk.css.map",
+    "static/css/main.e7c3d274.chunk.css.map": "/WebDev-Assignment-3/static/css/main.e7c3d274.chunk.css.map",
     "static/js/2.f34bf3a6.chunk.js.LICENSE.txt": "/WebDev-Assignment-3/static/js/2.f34bf3a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.99fd0301.js",
     "static/js/2.f34bf3a6.chunk.js",
-    "static/css/main.7cf61f23.chunk.css",
-    "static/js/main.ab1d74d7.chunk.js"
+    "static/css/main.e7c3d274.chunk.css",
+    "static/js/main.96f54827.chunk.js"
   ]
 }
