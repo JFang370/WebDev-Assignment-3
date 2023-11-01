@@ -7,7 +7,7 @@ Note: You need to work on this file for the Assignment.
 import {Link} from 'react-router-dom';
 import DashboardNav from './DashboardNav';
 import AccountBalance from './AccountBalance';
-import './css/Debit.css';
+import './css/DebitCredit.css';
 
 const Debits = (props) => {
   // Create the list of Debit items
