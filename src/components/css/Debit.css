@@ -1,0 +1,59 @@
+.main-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.debits{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.form{
+	width: 100%;
+	background-color: antiquewhite;
+}
+
+.info-main{
+	display: grid;
+	justify-content: flex-start;
+}
+
+.info-container{
+	display: block;
+	width: 10%;
+	margin: 10px;
+}
+
+.info-container-top{
+	display: grid;
+	grid-template-columns: 5em 20em;
+}
+
+.info-container-bottom{
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: 25em;
+}
+
+.info--id{
+	background-color: red;
+}
+
+.info--amount{
+	background-color: blue;
+}
+
+.info--date{
+	width: auto;
+	background-color: green;
+}
+
+.info--description{
+	background-color: orange;
+}
+
