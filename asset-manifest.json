@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WebDev-Assignment-3/static/css/main.f9a9dc37.chunk.css",
-    "main.js": "/WebDev-Assignment-3/static/js/main.75b06dcd.chunk.js",
-    "main.js.map": "/WebDev-Assignment-3/static/js/main.75b06dcd.chunk.js.map",
-    "runtime-main.js": "/WebDev-Assignment-3/static/js/runtime-main.50e437c5.js",
-    "runtime-main.js.map": "/WebDev-Assignment-3/static/js/runtime-main.50e437c5.js.map",
-    "static/js/2.7f486f30.chunk.js": "/WebDev-Assignment-3/static/js/2.7f486f30.chunk.js",
-    "static/js/2.7f486f30.chunk.js.map": "/WebDev-Assignment-3/static/js/2.7f486f30.chunk.js.map",
-    "static/js/3.5947dc04.chunk.js": "/WebDev-Assignment-3/static/js/3.5947dc04.chunk.js",
-    "static/js/3.5947dc04.chunk.js.map": "/WebDev-Assignment-3/static/js/3.5947dc04.chunk.js.map",
+    "main.css": "/WebDev-Assignment-3/static/css/main.7cf61f23.chunk.css",
+    "main.js": "/WebDev-Assignment-3/static/js/main.ab1d74d7.chunk.js",
+    "main.js.map": "/WebDev-Assignment-3/static/js/main.ab1d74d7.chunk.js.map",
+    "runtime-main.js": "/WebDev-Assignment-3/static/js/runtime-main.99fd0301.js",
+    "runtime-main.js.map": "/WebDev-Assignment-3/static/js/runtime-main.99fd0301.js.map",
+    "static/js/2.f34bf3a6.chunk.js": "/WebDev-Assignment-3/static/js/2.f34bf3a6.chunk.js",
+    "static/js/2.f34bf3a6.chunk.js.map": "/WebDev-Assignment-3/static/js/2.f34bf3a6.chunk.js.map",
+    "static/js/3.fd074cc5.chunk.js": "/WebDev-Assignment-3/static/js/3.fd074cc5.chunk.js",
+    "static/js/3.fd074cc5.chunk.js.map": "/WebDev-Assignment-3/static/js/3.fd074cc5.chunk.js.map",
     "index.html": "/WebDev-Assignment-3/index.html",
-    "static/css/main.f9a9dc37.chunk.css.map": "/WebDev-Assignment-3/static/css/main.f9a9dc37.chunk.css.map",
-    "static/js/2.7f486f30.chunk.js.LICENSE.txt": "/WebDev-Assignment-3/static/js/2.7f486f30.chunk.js.LICENSE.txt"
+    "static/css/main.7cf61f23.chunk.css.map": "/WebDev-Assignment-3/static/css/main.7cf61f23.chunk.css.map",
+    "static/js/2.f34bf3a6.chunk.js.LICENSE.txt": "/WebDev-Assignment-3/static/js/2.f34bf3a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.50e437c5.js",
-    "static/js/2.7f486f30.chunk.js",
-    "static/css/main.f9a9dc37.chunk.css",
-    "static/js/main.75b06dcd.chunk.js"
+    "static/js/runtime-main.99fd0301.js",
+    "static/js/2.f34bf3a6.chunk.js",
+    "static/css/main.7cf61f23.chunk.css",
+    "static/js/main.ab1d74d7.chunk.js"
   ]
 }
