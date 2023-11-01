@@ -5,7 +5,7 @@
 	flex-direction: column;
 }
 
-.debits{
+.view{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -56,4 +56,3 @@
 .info--description{
 	background-color: orange;
 }
-
