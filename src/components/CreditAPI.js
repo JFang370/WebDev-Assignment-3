@@ -18,7 +18,7 @@ class ApiDataComponent extends Component {
   constructor(props){  // Store received data in state's "users" object
     super(props);
     this.state = {  // Initialize state with an empty users array
-      users: []
+      credits: []
     }
   }
 
@@ -31,7 +31,7 @@ class ApiDataComponent extends Component {
       let response = await axios.get(linkToAPI);
       console.log(response);  // Print out response
       // To get data object in the response, need to use "response.data"
-      this.setState({users: response.data});  // Store received data in state's "users" object
+      this.setState({credits: response.data});  // Store received data in state's "users" object
     } 
     catch (error) {  // Print out errors at console when there is an error response
       if (error.response) {
@@ -46,7 +46,7 @@ class ApiDataComponent extends Component {
     return (
       <div className="container">
         {
-          this.state.users.map( (credit) => {  // Extract "id", "name", and "email" properties of each user JSON array element
+          this.state.credits.map( (credit) => {  // Extract "id", "name", and "email" properties of each user JSON array element
               return (
                 <div key={credit.id}>
 				  <div class='credit-info-container'>
